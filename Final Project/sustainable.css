@@ -24,49 +24,15 @@ h1 a {
 }
 
 h2 {
-    font-size: 48px;
-    padding: 10px;
+    font-size: 64px;
+    padding: 100px;
     padding-top: 50px;
 }
 
-
-.text {
-    display: flex;
-    float: right;
-    font-size: 24px;
+.col-md-6 {
+    padding: 50px;
 }
 
-
-.sustainable {
-    flex: 50%;
-}
-
-
-.container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    
-  }
-
-
-img {
-    flex: 1;
-    max-width: 100%;
-    height: auto;
-    max-height: 350px;
-}
-
-.row {
-    display: flex;
-  }
-
-.column {
-    flex: 50%;
-}
-
-.text {
-    word-wrap: break-word;
-    padding: 20px;
+.col-md-4 {
+    padding: 50px;
 }
