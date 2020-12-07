@@ -23,17 +23,26 @@ h1 a {
     margin: 160px;
 }
 
-.container {
+.row {
     display: flex;
-    font-size: 30px;
-    float: right;
-    margin-right: 35px;
-    margin-top: 130px;
-}
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
 
-.selfimage {
-    display: flex;
-    width: 40%;
-    margin-top: 130px;
-    margin-left: 30px;
-}
+  .selfimage {
+      margin-top: 10%;
+  }
+
+  .text {
+      padding: 30px;
+      font-size: 28px;
+      margin-top: 10%;
+  }
